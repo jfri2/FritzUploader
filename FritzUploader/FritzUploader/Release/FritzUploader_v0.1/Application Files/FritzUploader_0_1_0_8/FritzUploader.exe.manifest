@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="FritzUploader.exe" version="0.1.0.8" publicKeyToken="a8b0445a76324d2d" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="ic.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="FritzUploader" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="FritzUploader.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="FritzUploader.exe" size="58336">
+      <assemblyIdentity name="FritzUploader" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>MUkPrtUFonGcXeixsY8cueMHbyzycT85EsMPpw0m0WY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="avrdude.conf" size="487819">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>3vKmIxlSjobS+mdxXkr0GmaxC4skBa5l2VtpGZmj2eM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="avrdude.exe" size="524800">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>TXf34G7EL4p958Qy5ydcR/gGIjEpozhEIcsdvd4Ljbg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="BringUp.hex" size="6469">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>kClclmveLamCeApOMbUTGLrNw05MKJz+oKFKulpvalU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="FritzUploader.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6N7MliNbVJSIAIPrecIshMbZ7zEoKLr5SQvud4LDUOw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="ic.ico" size="22149">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>zGRVHx6+PlczGKWf/Lw7Gb1f3qjxzEjSw68rZdA+pmw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="integrated_circuit_256_0WE_icon.ico" size="20404">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ZFmIpHyyoc4Js3EK3gO3doptc5ORuDum50pzsskEQhI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="libusb0.dll" size="67680">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>AMrKB4abGdELNwVSrHzC9vLuJG/BXbEWUPbNP075tmY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="optiboot_m328pb.hex" size="1388">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>t9nMr38HHokgvA2mS5UwlgEnc1Usm9gwTSlcD3F+mO8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="README.txt" size="775">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rN4g+vzwnctxyVAkCAIO7JbNa2fsAZ2Gj/UQcjAWVHk=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-AHKN521\jfrit" issuerKeyHash="5a152aac9b0c82ba7d5980cb7b06589fccc85bc9" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>MVlo2gNuDiFsM419rqDulhBUPa/qP1/KjyyyvV8sxvU=</DigestValue></Reference></SignedInfo><SignatureValue>BQj523DKkEYEMrdgcUimvV/W36Yzed30qhXEksi+Ko12dAmNnELwygs4p6oB8h8LKbBdeDt+BTOJj4Gf+EoZobJ4BKBpNZsEA9ZAaO+SCUFiL3B3SZoaev7lFleg70VSeI0HvEVYyW1gNtUFo3p08cn1zq7Nnh51sKIBcVt9LiI=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>vPGF75X+llWz6XELwlHtMj0Si7HJ3ngXtf+5R4+mZNMqu4N7eN67DYdVhqXRJIHmpa2bh8G7l6qlDQdvxTPuwX6MVWW34ZwFMpw7Y9CtQZ+IfC6UPOj0uG7V0odq9tGPbp+ct0uorkNqo5obixNSeweaMpnyJcOM04k41MTNPrU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="f5c62c5fbdb22c8fca5f3feaaf3d541096eea0ae7d8d336c210e6e03da685931" Description="" Url=""><as:assemblyIdentity name="FritzUploader.exe" version="0.1.0.8" publicKeyToken="a8b0445a76324d2d" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-AHKN521\jfrit</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>jjoxkZGdhHSRYKrEOYDB3fUtXD9fGIU64T2g+tQZVqE=</DigestValue></Reference></SignedInfo><SignatureValue>OykFXeFfPzaE/OEG9WxNdRUPQlI6yr9JP3bIlDzyH7lQbEtRCt0ZwBt4t5Qv7egUOtGgb7rHIIV8BvQnqEQkeUVOpwoYJcduYPVF5sVqSCQwmpgqOTuorA/7ROVjPHqDKA2x4fnRIlwp2xUxEIqOz0sfpBxHF9M0us0lBi4Dp98=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>vPGF75X+llWz6XELwlHtMj0Si7HJ3ngXtf+5R4+mZNMqu4N7eN67DYdVhqXRJIHmpa2bh8G7l6qlDQdvxTPuwX6MVWW34ZwFMpw7Y9CtQZ+IfC6UPOj0uG7V0odq9tGPbp+ct0uorkNqo5obixNSeweaMpnyJcOM04k41MTNPrU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQE03QLWbudp9HEwky+BUm7zANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEEASABLAE4ANQAyADEAXABqAGYAcgBpAHQwHhcNMTcwNjIwMDU0NTI4WhcNMTgwNjIwMTE0NTI4WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEEASABLAE4ANQAyADEAXABqAGYAcgBpAHQwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALzxhe+V/pZVs+lxC8JR7TI9Eouxyd54F7X/uUePpmTTKruDe3jeuw2HVYal0SSB5qWtm4fBu5eqpQ0Hb8Uz7sF+jFVlt+GcBTKcO2PQrUGfiHwulDzo9Lhu1dKHavbRj26fnLdLqK5DaqOaG4sTUnsHmjKZ8iXDjNOJONTEzT61AgMBAAEwDQYJKoZIhvcNAQELBQADgYEAElfrQWdwoo1Por4mFm1rA6Rxtg9DTZSsTL6qlmtGWs4g0sj6XWXpXJgXaJjT8R4XYFw277arKm02oT+Xvp+5mlRzGux/yin5QWF7JK0lXSKAzGAqMa8jy2Jv2r2I4Uxj0lfXb5162yzvMh6M6xdcXrXC2N8LnkHv/dlr/1CghRI=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

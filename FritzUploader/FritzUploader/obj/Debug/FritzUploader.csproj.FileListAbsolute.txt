@@ -1,0 +1,13 @@
+C:\Users\jfrit\Documents\GitHub\FritzUploader\FritzUploader\FritzUploader\bin\Debug\FritzUploader.exe.config
+C:\Users\jfrit\Documents\GitHub\FritzUploader\FritzUploader\FritzUploader\bin\Debug\FritzUploader.exe.manifest
+C:\Users\jfrit\Documents\GitHub\FritzUploader\FritzUploader\FritzUploader\bin\Debug\FritzUploader.application
+C:\Users\jfrit\Documents\GitHub\FritzUploader\FritzUploader\FritzUploader\bin\Debug\FritzUploader.exe
+C:\Users\jfrit\Documents\GitHub\FritzUploader\FritzUploader\FritzUploader\bin\Debug\FritzUploader.pdb
+C:\Users\jfrit\Documents\GitHub\FritzUploader\FritzUploader\FritzUploader\obj\Debug\FritzUploader.Form1.resources
+C:\Users\jfrit\Documents\GitHub\FritzUploader\FritzUploader\FritzUploader\obj\Debug\FritzUploader.Properties.Resources.resources
+C:\Users\jfrit\Documents\GitHub\FritzUploader\FritzUploader\FritzUploader\obj\Debug\FritzUploader.csproj.GenerateResource.Cache
+C:\Users\jfrit\Documents\GitHub\FritzUploader\FritzUploader\FritzUploader\obj\Debug\FritzUploader.exe.manifest
+C:\Users\jfrit\Documents\GitHub\FritzUploader\FritzUploader\FritzUploader\obj\Debug\FritzUploader.application
+C:\Users\jfrit\Documents\GitHub\FritzUploader\FritzUploader\FritzUploader\obj\Debug\FritzUploader.exe
+C:\Users\jfrit\Documents\GitHub\FritzUploader\FritzUploader\FritzUploader\obj\Debug\FritzUploader.pdb
+C:\Users\jfrit\Documents\GitHub\FritzUploader\FritzUploader\FritzUploader\obj\Debug\FritzUploader.csprojResolveAssemblyReference.cache
