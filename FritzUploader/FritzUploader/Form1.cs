@@ -68,7 +68,7 @@ namespace FritzUploader
 
         private void buttonUpload_Click(object sender, EventArgs e)
         {
-            uploadCommandText = @"/K avrdude.exe -F -v -p" + mcuCmdText + @" -cstk500v1 -P" + serialPortText + @" -b115200 -D -Uflash:w:" + hexFilePathText + @":i";
+            uploadCommandText = @"/C avrdude.exe -F -v -p" + mcuCmdText + @" -cstk500v1 -P" + serialPortText + @" -b115200 -D -Uflash:w:" + hexFilePathText + @":i";
 
             Debug.WriteLine(uploadCommandText);
 
@@ -83,6 +83,8 @@ namespace FritzUploader
 
         private void button3_Click(object sender, EventArgs e)
         {
+            CommPortBox.Items.Clear();
+
             // Refresh serial port names
             ports = SerialPort.GetPortNames();
 
