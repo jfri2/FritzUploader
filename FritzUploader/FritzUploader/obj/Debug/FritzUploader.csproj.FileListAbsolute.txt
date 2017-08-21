@@ -11,3 +11,4 @@ C:\Users\jfrit\Documents\GitHub\FritzUploader\FritzUploader\FritzUploader\obj\De
 C:\Users\jfrit\Documents\GitHub\FritzUploader\FritzUploader\FritzUploader\obj\Debug\FritzUploader.exe
 C:\Users\jfrit\Documents\GitHub\FritzUploader\FritzUploader\FritzUploader\obj\Debug\FritzUploader.pdb
 C:\Users\jfrit\Documents\GitHub\FritzUploader\FritzUploader\FritzUploader\obj\Debug\FritzUploader.csprojResolveAssemblyReference.cache
+C:\Users\jfrit\Documents\GitHub\FritzUploader\FritzUploader\FritzUploader\bin\Debug\bin\Debug\bossac.exe

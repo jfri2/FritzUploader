@@ -102,9 +102,9 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(10, 10);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(137, 13);
+            this.label2.Size = new System.Drawing.Size(115, 13);
             this.label2.TabIndex = 7;
-            this.label2.Text = "Hex File to Upload to Board";
+            this.label2.Text = "File to Upload to Board";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
@@ -122,7 +122,8 @@
             this.comboBox2.FormattingEnabled = true;
             this.comboBox2.Items.AddRange(new object[] {
             "ATmega328P",
-            "ATmega328PB"});
+            "ATmega328PB",
+            "ATSAMD21"});
             this.comboBox2.Location = new System.Drawing.Point(30, 82);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(119, 21);

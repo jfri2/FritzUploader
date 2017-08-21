@@ -22,7 +22,7 @@ namespace FritzUploader
         private string uploadCommandText;
         private string mcuCmdText;
         private string serialPortText;
-        private string hexFilePathText;
+        private string filePathText;
 
         // Public Functions
         public Form1()
@@ -47,12 +47,19 @@ namespace FritzUploader
         {
             // Get file path
             OpenFileDialog ofd = new OpenFileDialog();
-            ofd.Filter = "Hex Files(*.hex)|*.hex";
+            if ((mcuText == "ATmega328p") || (mcuText == "ATmega328pb"))
+            {
+                ofd.Filter = "Hex Files(*.hex)|*.hex";
+            }
+            else if (mcuText == "ATSAMD21")
+            {
+                ofd.Filter = "Bin Files(*.bin)|*bin";
+            }
 
             if (ofd.ShowDialog() == DialogResult.OK)
             {
-                hexFilePathText = ofd.FileName.ToString();
-                textBox1.Text = hexFilePathText;
+                filePathText = ofd.FileName.ToString();
+                textBox1.Text = filePathText;
             }
         }
 
@@ -68,7 +75,14 @@ namespace FritzUploader
 
         private void buttonUpload_Click(object sender, EventArgs e)
         {
-            uploadCommandText = @"/C avrdude.exe -F -v -p" + mcuCmdText + @" -cstk500v1 -P" + serialPortText + @" -b115200 -D -Uflash:w:" + hexFilePathText + @":i";
+            if ((mcuText == "ATmega328p") || (mcuText == "ATmega328pb"))
+            {
+                uploadCommandText = @"/C avrdude.exe -F -v -p" + mcuCmdText + @" -cstk500v1 -P" + serialPortText + @" -b115200 -D -Uflash:w:" + filePathText + @":i";
+            }
+            else if (mcuText == "ATSAMD21")
+            {
+                uploadCommandText = @"/C bossac.exe -i -d --port=" + serialPortText + @" -U true -i -e -w -v " + filePathText + @" -R";
+            }
 
             Debug.WriteLine(uploadCommandText);
 
@@ -126,6 +140,8 @@ namespace FritzUploader
                     break;
                 case "Atmega328pb":
                     mcuCmdText = "m328pb";
+                    break;
+                case "ATSAMD21":
                     break;
                 default:
                     mcuCmdText = "m328p";   // default to ATmega328p
